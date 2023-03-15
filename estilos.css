@@ -1,0 +1,62 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.padre
+{
+    display: inline-block;
+    background-color: rebeccapurple;
+    width: 285px;
+    height: 390px;
+    border: solid 3px black;
+    border-radius: 15px;
+    align-content: center;
+    justify-content: center;
+}
+picture
+{
+    display: flex;
+    justify-items: center;
+}
+img
+{
+    margin-left: 36px;
+    width: 135px;
+    height: 170px;
+}
+.parrafo
+{
+    margin: 20px;
+}
+.parrafo p
+{
+    color: rgb(13,13,66);
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+}
+.duki
+{
+    display: flex;
+    width: 160px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: aqua;
+    border: solid 2px black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.duki p
+{
+    font-size: 20px;
+    font-weight: bold;
+}
